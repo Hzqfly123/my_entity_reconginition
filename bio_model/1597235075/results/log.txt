@@ -1,0 +1,43 @@
+2020-08-12 20:24:35,656:INFO: Namespace(CRF=True, batch_size=50, clip=5.0, data_dir='train_test_data', demo_model='random_char_300', dictionary='char2id_bio.pkl', dropout=0.5, embedding_dim=300, embedding_dir='../word2vector', epoch=100, hidden_dim=300, lr=0.001, mode='train', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='test_bio_char.txt', train_data='train_bio_char.txt', update_embedding=True)
+2020-08-12 20:24:35,689:WARNING: From C:\Users\Administrator\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2020-08-12 20:24:35,689:WARNING: From C:\Users\Administrator\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2020-08-12 20:24:36,903:WARNING: From c:\Users\Administrator\Desktop\my_entity_reconginition\bilstm_crf\model.py:84: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2020-08-12 20:24:36,903:WARNING: From c:\Users\Administrator\Desktop\my_entity_reconginition\bilstm_crf\model.py:84: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2020-08-12 20:24:36,918:WARNING: From c:\Users\Administrator\Desktop\my_entity_reconginition\bilstm_crf\model.py:111: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2020-08-12 20:24:36,918:WARNING: From c:\Users\Administrator\Desktop\my_entity_reconginition\bilstm_crf\model.py:111: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2020-08-12 20:24:36,922:WARNING: From c:\Users\Administrator\Desktop\my_entity_reconginition\bilstm_crf\model.py:149: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2020-08-12 20:24:36,922:WARNING: From c:\Users\Administrator\Desktop\my_entity_reconginition\bilstm_crf\model.py:149: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2020-08-12 20:24:36,925:WARNING: From C:\Users\Administrator\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2020-08-12 20:24:36,925:WARNING: From C:\Users\Administrator\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2020-08-12 20:24:36,950:WARNING: From C:\Users\Administrator\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2020-08-12 20:24:36,950:WARNING: From C:\Users\Administrator\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2020-08-12 20:24:43,060:INFO: 2020-08-12 20:24:39 epoch 1, step 1, loss: 356.0, global_step: 1
+2020-08-12 20:24:43,060:INFO: 2020-08-12 20:24:39 epoch 1, step 1, loss: 356.0, global_step: 1
+2020-08-12 20:25:32,198:INFO: 2020-08-12 20:24:39 epoch 1, step 52, loss: 43.02, global_step: 52
+2020-08-12 20:25:32,198:INFO: 2020-08-12 20:24:39 epoch 1, step 52, loss: 43.02, global_step: 52
+2020-08-12 20:25:32,731:INFO: ===========validation===========
+2020-08-12 20:25:32,731:INFO: ===========validation===========

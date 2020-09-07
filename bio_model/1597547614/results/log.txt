@@ -1,0 +1,343 @@
+2020-08-16 11:13:34,266:INFO: Namespace(CRF=True, batch_size=50, clip=5.0, data_dir='train_test_data', demo_model='random_char_300', dev_data='dev.txt', dictionary='char2id_bio.pkl', dropout=0.5, embedding_dim=300, embedding_dir='../word2vector', epoch=50, hidden_dim=300, lr=0.001, mode='train', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='test.txt', train_data='train_bio_char.txt', update_embedding=True)
+2020-08-16 11:13:34,298:WARNING: From C:\Users\Administrator\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2020-08-16 11:13:34,298:WARNING: From C:\Users\Administrator\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2020-08-16 11:13:34,310:WARNING: From c:\Users\Administrator\Desktop\my_entity_reconginition\bilstm_crf\model.py:84: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2020-08-16 11:13:34,310:WARNING: From c:\Users\Administrator\Desktop\my_entity_reconginition\bilstm_crf\model.py:84: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2020-08-16 11:13:34,335:WARNING: From c:\Users\Administrator\Desktop\my_entity_reconginition\bilstm_crf\model.py:111: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2020-08-16 11:13:34,335:WARNING: From c:\Users\Administrator\Desktop\my_entity_reconginition\bilstm_crf\model.py:111: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2020-08-16 11:13:34,338:WARNING: From c:\Users\Administrator\Desktop\my_entity_reconginition\bilstm_crf\model.py:149: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2020-08-16 11:13:34,338:WARNING: From c:\Users\Administrator\Desktop\my_entity_reconginition\bilstm_crf\model.py:149: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2020-08-16 11:13:34,341:WARNING: From C:\Users\Administrator\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2020-08-16 11:13:34,341:WARNING: From C:\Users\Administrator\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2020-08-16 11:13:34,372:WARNING: From C:\Users\Administrator\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2020-08-16 11:13:34,372:WARNING: From C:\Users\Administrator\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2020-08-16 11:13:40,583:INFO: 2020-08-16 11:13:37 epoch 1, step 1, loss: 349.3, global_step: 1
+2020-08-16 11:13:40,583:INFO: 2020-08-16 11:13:37 epoch 1, step 1, loss: 349.3, global_step: 1
+2020-08-16 11:14:28,713:INFO: 2020-08-16 11:13:37 epoch 1, step 52, loss: 48.75, global_step: 52
+2020-08-16 11:14:28,713:INFO: 2020-08-16 11:13:37 epoch 1, step 52, loss: 48.75, global_step: 52
+2020-08-16 11:14:29,203:INFO: ===========validation===========
+2020-08-16 11:14:29,203:INFO: ===========validation===========
+2020-08-16 11:14:34,104:INFO: 2020-08-16 11:14:33 epoch 2, step 1, loss: 47.86, global_step: 53
+2020-08-16 11:14:34,104:INFO: 2020-08-16 11:14:33 epoch 2, step 1, loss: 47.86, global_step: 53
+2020-08-16 11:15:25,101:INFO: 2020-08-16 11:14:33 epoch 2, step 52, loss: 14.74, global_step: 104
+2020-08-16 11:15:25,101:INFO: 2020-08-16 11:14:33 epoch 2, step 52, loss: 14.74, global_step: 104
+2020-08-16 11:15:25,528:INFO: ===========validation===========
+2020-08-16 11:15:25,528:INFO: ===========validation===========
+2020-08-16 11:15:29,480:INFO: 2020-08-16 11:15:28 epoch 3, step 1, loss: 13.71, global_step: 105
+2020-08-16 11:15:29,480:INFO: 2020-08-16 11:15:28 epoch 3, step 1, loss: 13.71, global_step: 105
+2020-08-16 11:16:17,821:INFO: 2020-08-16 11:15:28 epoch 3, step 52, loss: 8.674, global_step: 156
+2020-08-16 11:16:17,821:INFO: 2020-08-16 11:15:28 epoch 3, step 52, loss: 8.674, global_step: 156
+2020-08-16 11:16:18,284:INFO: ===========validation===========
+2020-08-16 11:16:18,284:INFO: ===========validation===========
+2020-08-16 11:16:22,744:INFO: 2020-08-16 11:16:21 epoch 4, step 1, loss: 8.238, global_step: 157
+2020-08-16 11:16:22,744:INFO: 2020-08-16 11:16:21 epoch 4, step 1, loss: 8.238, global_step: 157
+2020-08-16 11:17:12,402:INFO: 2020-08-16 11:16:21 epoch 4, step 52, loss: 6.097, global_step: 208
+2020-08-16 11:17:12,402:INFO: 2020-08-16 11:16:21 epoch 4, step 52, loss: 6.097, global_step: 208
+2020-08-16 11:17:12,835:INFO: ===========validation===========
+2020-08-16 11:17:12,835:INFO: ===========validation===========
+2020-08-16 11:17:17,518:INFO: 2020-08-16 11:17:16 epoch 5, step 1, loss: 5.969, global_step: 209
+2020-08-16 11:17:17,518:INFO: 2020-08-16 11:17:16 epoch 5, step 1, loss: 5.969, global_step: 209
+2020-08-16 11:18:04,939:INFO: 2020-08-16 11:17:16 epoch 5, step 52, loss: 3.491, global_step: 260
+2020-08-16 11:18:04,939:INFO: 2020-08-16 11:17:16 epoch 5, step 52, loss: 3.491, global_step: 260
+2020-08-16 11:18:05,932:INFO: ===========validation===========
+2020-08-16 11:18:05,932:INFO: ===========validation===========
+2020-08-16 11:18:09,959:INFO: 2020-08-16 11:18:09 epoch 6, step 1, loss: 4.063, global_step: 261
+2020-08-16 11:18:09,959:INFO: 2020-08-16 11:18:09 epoch 6, step 1, loss: 4.063, global_step: 261
+2020-08-16 11:18:58,192:INFO: 2020-08-16 11:18:09 epoch 6, step 52, loss: 2.86, global_step: 312
+2020-08-16 11:18:58,192:INFO: 2020-08-16 11:18:09 epoch 6, step 52, loss: 2.86, global_step: 312
+2020-08-16 11:18:58,400:WARNING: From C:\Users\Administrator\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\training\saver.py:966: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+2020-08-16 11:18:58,400:WARNING: From C:\Users\Administrator\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\training\saver.py:966: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+2020-08-16 11:18:58,670:INFO: ===========validation===========
+2020-08-16 11:18:58,670:INFO: ===========validation===========
+2020-08-16 11:19:03,343:INFO: 2020-08-16 11:19:02 epoch 7, step 1, loss: 2.644, global_step: 313
+2020-08-16 11:19:03,343:INFO: 2020-08-16 11:19:02 epoch 7, step 1, loss: 2.644, global_step: 313
+2020-08-16 11:19:51,094:INFO: 2020-08-16 11:19:02 epoch 7, step 52, loss: 3.617, global_step: 364
+2020-08-16 11:19:51,094:INFO: 2020-08-16 11:19:02 epoch 7, step 52, loss: 3.617, global_step: 364
+2020-08-16 11:19:51,579:INFO: ===========validation===========
+2020-08-16 11:19:51,579:INFO: ===========validation===========
+2020-08-16 11:19:56,337:INFO: 2020-08-16 11:19:55 epoch 8, step 1, loss: 2.709, global_step: 365
+2020-08-16 11:19:56,337:INFO: 2020-08-16 11:19:55 epoch 8, step 1, loss: 2.709, global_step: 365
+2020-08-16 11:20:49,558:INFO: 2020-08-16 11:19:55 epoch 8, step 52, loss: 1.798, global_step: 416
+2020-08-16 11:20:49,558:INFO: 2020-08-16 11:19:55 epoch 8, step 52, loss: 1.798, global_step: 416
+2020-08-16 11:20:50,022:INFO: ===========validation===========
+2020-08-16 11:20:50,022:INFO: ===========validation===========
+2020-08-16 11:20:55,243:INFO: 2020-08-16 11:20:54 epoch 9, step 1, loss: 2.423, global_step: 417
+2020-08-16 11:20:55,243:INFO: 2020-08-16 11:20:54 epoch 9, step 1, loss: 2.423, global_step: 417
+2020-08-16 11:21:45,579:INFO: 2020-08-16 11:20:54 epoch 9, step 52, loss: 2.049, global_step: 468
+2020-08-16 11:21:45,579:INFO: 2020-08-16 11:20:54 epoch 9, step 52, loss: 2.049, global_step: 468
+2020-08-16 11:21:45,992:INFO: ===========validation===========
+2020-08-16 11:21:45,992:INFO: ===========validation===========
+2020-08-16 11:21:50,544:INFO: 2020-08-16 11:21:49 epoch 10, step 1, loss: 1.892, global_step: 469
+2020-08-16 11:21:50,544:INFO: 2020-08-16 11:21:49 epoch 10, step 1, loss: 1.892, global_step: 469
+2020-08-16 11:22:40,560:INFO: 2020-08-16 11:21:49 epoch 10, step 52, loss: 2.508, global_step: 520
+2020-08-16 11:22:40,560:INFO: 2020-08-16 11:21:49 epoch 10, step 52, loss: 2.508, global_step: 520
+2020-08-16 11:22:41,036:INFO: ===========validation===========
+2020-08-16 11:22:41,036:INFO: ===========validation===========
+2020-08-16 11:22:45,455:INFO: 2020-08-16 11:22:44 epoch 11, step 1, loss: 2.537, global_step: 521
+2020-08-16 11:22:45,455:INFO: 2020-08-16 11:22:44 epoch 11, step 1, loss: 2.537, global_step: 521
+2020-08-16 11:23:33,961:INFO: 2020-08-16 11:22:44 epoch 11, step 52, loss: 1.095, global_step: 572
+2020-08-16 11:23:33,961:INFO: 2020-08-16 11:22:44 epoch 11, step 52, loss: 1.095, global_step: 572
+2020-08-16 11:23:34,430:INFO: ===========validation===========
+2020-08-16 11:23:34,430:INFO: ===========validation===========
+2020-08-16 11:23:38,809:INFO: 2020-08-16 11:23:37 epoch 12, step 1, loss: 1.634, global_step: 573
+2020-08-16 11:23:38,809:INFO: 2020-08-16 11:23:37 epoch 12, step 1, loss: 1.634, global_step: 573
+2020-08-16 11:24:26,530:INFO: 2020-08-16 11:23:37 epoch 12, step 52, loss: 1.165, global_step: 624
+2020-08-16 11:24:26,530:INFO: 2020-08-16 11:23:37 epoch 12, step 52, loss: 1.165, global_step: 624
+2020-08-16 11:24:27,028:INFO: ===========validation===========
+2020-08-16 11:24:27,028:INFO: ===========validation===========
+2020-08-16 11:24:31,678:INFO: 2020-08-16 11:24:30 epoch 13, step 1, loss: 1.604, global_step: 625
+2020-08-16 11:24:31,678:INFO: 2020-08-16 11:24:30 epoch 13, step 1, loss: 1.604, global_step: 625
+2020-08-16 11:25:20,066:INFO: 2020-08-16 11:24:30 epoch 13, step 52, loss: 1.425, global_step: 676
+2020-08-16 11:25:20,066:INFO: 2020-08-16 11:24:30 epoch 13, step 52, loss: 1.425, global_step: 676
+2020-08-16 11:25:21,105:INFO: ===========validation===========
+2020-08-16 11:25:21,105:INFO: ===========validation===========
+2020-08-16 11:25:25,699:INFO: 2020-08-16 11:25:24 epoch 14, step 1, loss: 1.418, global_step: 677
+2020-08-16 11:25:25,699:INFO: 2020-08-16 11:25:24 epoch 14, step 1, loss: 1.418, global_step: 677
+2020-08-16 11:26:16,480:INFO: 2020-08-16 11:25:24 epoch 14, step 52, loss: 1.056, global_step: 728
+2020-08-16 11:26:16,480:INFO: 2020-08-16 11:25:24 epoch 14, step 52, loss: 1.056, global_step: 728
+2020-08-16 11:26:17,046:INFO: ===========validation===========
+2020-08-16 11:26:17,046:INFO: ===========validation===========
+2020-08-16 11:26:21,454:INFO: 2020-08-16 11:26:20 epoch 15, step 1, loss: 1.414, global_step: 729
+2020-08-16 11:26:21,454:INFO: 2020-08-16 11:26:20 epoch 15, step 1, loss: 1.414, global_step: 729
+2020-08-16 11:27:12,391:INFO: 2020-08-16 11:26:20 epoch 15, step 52, loss: 0.8869, global_step: 780
+2020-08-16 11:27:12,391:INFO: 2020-08-16 11:26:20 epoch 15, step 52, loss: 0.8869, global_step: 780
+2020-08-16 11:27:12,892:INFO: ===========validation===========
+2020-08-16 11:27:12,892:INFO: ===========validation===========
+2020-08-16 11:27:17,384:INFO: 2020-08-16 11:27:16 epoch 16, step 1, loss: 1.176, global_step: 781
+2020-08-16 11:27:17,384:INFO: 2020-08-16 11:27:16 epoch 16, step 1, loss: 1.176, global_step: 781
+2020-08-16 11:28:08,035:INFO: 2020-08-16 11:27:16 epoch 16, step 52, loss: 1.278, global_step: 832
+2020-08-16 11:28:08,035:INFO: 2020-08-16 11:27:16 epoch 16, step 52, loss: 1.278, global_step: 832
+2020-08-16 11:28:08,651:INFO: ===========validation===========
+2020-08-16 11:28:08,651:INFO: ===========validation===========
+2020-08-16 11:28:15,276:INFO: 2020-08-16 11:28:14 epoch 17, step 1, loss: 1.359, global_step: 833
+2020-08-16 11:28:15,276:INFO: 2020-08-16 11:28:14 epoch 17, step 1, loss: 1.359, global_step: 833
+2020-08-16 11:29:05,109:INFO: 2020-08-16 11:28:14 epoch 17, step 52, loss: 1.016, global_step: 884
+2020-08-16 11:29:05,109:INFO: 2020-08-16 11:28:14 epoch 17, step 52, loss: 1.016, global_step: 884
+2020-08-16 11:29:05,571:INFO: ===========validation===========
+2020-08-16 11:29:05,571:INFO: ===========validation===========
+2020-08-16 11:29:09,772:INFO: 2020-08-16 11:29:08 epoch 18, step 1, loss: 0.9518, global_step: 885
+2020-08-16 11:29:09,772:INFO: 2020-08-16 11:29:08 epoch 18, step 1, loss: 0.9518, global_step: 885
+2020-08-16 11:29:58,279:INFO: 2020-08-16 11:29:08 epoch 18, step 52, loss: 1.255, global_step: 936
+2020-08-16 11:29:58,279:INFO: 2020-08-16 11:29:08 epoch 18, step 52, loss: 1.255, global_step: 936
+2020-08-16 11:29:58,749:INFO: ===========validation===========
+2020-08-16 11:29:58,749:INFO: ===========validation===========
+2020-08-16 11:30:04,315:INFO: 2020-08-16 11:30:03 epoch 19, step 1, loss: 1.238, global_step: 937
+2020-08-16 11:30:04,315:INFO: 2020-08-16 11:30:03 epoch 19, step 1, loss: 1.238, global_step: 937
+2020-08-16 11:30:55,936:INFO: 2020-08-16 11:30:03 epoch 19, step 52, loss: 1.185, global_step: 988
+2020-08-16 11:30:55,936:INFO: 2020-08-16 11:30:03 epoch 19, step 52, loss: 1.185, global_step: 988
+2020-08-16 11:30:56,528:INFO: ===========validation===========
+2020-08-16 11:30:56,528:INFO: ===========validation===========
+2020-08-16 11:31:02,108:INFO: 2020-08-16 11:31:01 epoch 20, step 1, loss: 0.8994, global_step: 989
+2020-08-16 11:31:02,108:INFO: 2020-08-16 11:31:01 epoch 20, step 1, loss: 0.8994, global_step: 989
+2020-08-16 11:31:51,567:INFO: 2020-08-16 11:31:01 epoch 20, step 52, loss: 1.306, global_step: 1040
+2020-08-16 11:31:51,567:INFO: 2020-08-16 11:31:01 epoch 20, step 52, loss: 1.306, global_step: 1040
+2020-08-16 11:31:52,159:INFO: ===========validation===========
+2020-08-16 11:31:52,159:INFO: ===========validation===========
+2020-08-16 11:31:56,602:INFO: 2020-08-16 11:31:55 epoch 21, step 1, loss: 0.8836, global_step: 1041
+2020-08-16 11:31:56,602:INFO: 2020-08-16 11:31:55 epoch 21, step 1, loss: 0.8836, global_step: 1041
+2020-08-16 11:32:43,750:INFO: 2020-08-16 11:31:55 epoch 21, step 52, loss: 0.9868, global_step: 1092
+2020-08-16 11:32:43,750:INFO: 2020-08-16 11:31:55 epoch 21, step 52, loss: 0.9868, global_step: 1092
+2020-08-16 11:32:44,146:INFO: ===========validation===========
+2020-08-16 11:32:44,146:INFO: ===========validation===========
+2020-08-16 11:32:48,088:INFO: 2020-08-16 11:32:47 epoch 22, step 1, loss: 0.8474, global_step: 1093
+2020-08-16 11:32:48,088:INFO: 2020-08-16 11:32:47 epoch 22, step 1, loss: 0.8474, global_step: 1093
+2020-08-16 11:33:38,343:INFO: 2020-08-16 11:32:47 epoch 22, step 52, loss: 0.721, global_step: 1144
+2020-08-16 11:33:38,343:INFO: 2020-08-16 11:32:47 epoch 22, step 52, loss: 0.721, global_step: 1144
+2020-08-16 11:33:38,795:INFO: ===========validation===========
+2020-08-16 11:33:38,795:INFO: ===========validation===========
+2020-08-16 11:33:43,920:INFO: 2020-08-16 11:33:42 epoch 23, step 1, loss: 0.5816, global_step: 1145
+2020-08-16 11:33:43,920:INFO: 2020-08-16 11:33:42 epoch 23, step 1, loss: 0.5816, global_step: 1145
+2020-08-16 11:34:35,373:INFO: 2020-08-16 11:33:42 epoch 23, step 52, loss: 1.046, global_step: 1196
+2020-08-16 11:34:35,373:INFO: 2020-08-16 11:33:42 epoch 23, step 52, loss: 1.046, global_step: 1196
+2020-08-16 11:34:35,813:INFO: ===========validation===========
+2020-08-16 11:34:35,813:INFO: ===========validation===========
+2020-08-16 11:34:40,404:INFO: 2020-08-16 11:34:39 epoch 24, step 1, loss: 0.4979, global_step: 1197
+2020-08-16 11:34:40,404:INFO: 2020-08-16 11:34:39 epoch 24, step 1, loss: 0.4979, global_step: 1197
+2020-08-16 11:35:29,786:INFO: 2020-08-16 11:34:39 epoch 24, step 52, loss: 0.7111, global_step: 1248
+2020-08-16 11:35:29,786:INFO: 2020-08-16 11:34:39 epoch 24, step 52, loss: 0.7111, global_step: 1248
+2020-08-16 11:35:30,267:INFO: ===========validation===========
+2020-08-16 11:35:30,267:INFO: ===========validation===========
+2020-08-16 11:35:35,479:INFO: 2020-08-16 11:35:34 epoch 25, step 1, loss: 0.4512, global_step: 1249
+2020-08-16 11:35:35,479:INFO: 2020-08-16 11:35:34 epoch 25, step 1, loss: 0.4512, global_step: 1249
+2020-08-16 11:36:24,922:INFO: 2020-08-16 11:35:34 epoch 25, step 52, loss: 0.8472, global_step: 1300
+2020-08-16 11:36:24,922:INFO: 2020-08-16 11:35:34 epoch 25, step 52, loss: 0.8472, global_step: 1300
+2020-08-16 11:36:25,462:INFO: ===========validation===========
+2020-08-16 11:36:25,462:INFO: ===========validation===========
+2020-08-16 11:36:29,852:INFO: 2020-08-16 11:36:28 epoch 26, step 1, loss: 0.569, global_step: 1301
+2020-08-16 11:36:29,852:INFO: 2020-08-16 11:36:28 epoch 26, step 1, loss: 0.569, global_step: 1301
+2020-08-16 11:37:18,939:INFO: 2020-08-16 11:36:28 epoch 26, step 52, loss: 0.6085, global_step: 1352
+2020-08-16 11:37:18,939:INFO: 2020-08-16 11:36:28 epoch 26, step 52, loss: 0.6085, global_step: 1352
+2020-08-16 11:37:19,448:INFO: ===========validation===========
+2020-08-16 11:37:19,448:INFO: ===========validation===========
+2020-08-16 11:37:24,359:INFO: 2020-08-16 11:37:23 epoch 27, step 1, loss: 0.3287, global_step: 1353
+2020-08-16 11:37:24,359:INFO: 2020-08-16 11:37:23 epoch 27, step 1, loss: 0.3287, global_step: 1353
+2020-08-16 11:38:12,227:INFO: 2020-08-16 11:37:23 epoch 27, step 52, loss: 0.6471, global_step: 1404
+2020-08-16 11:38:12,227:INFO: 2020-08-16 11:37:23 epoch 27, step 52, loss: 0.6471, global_step: 1404
+2020-08-16 11:38:17,700:INFO: ===========validation===========
+2020-08-16 11:38:17,700:INFO: ===========validation===========
+2020-08-16 11:38:22,291:INFO: 2020-08-16 11:38:21 epoch 28, step 1, loss: 0.4803, global_step: 1405
+2020-08-16 11:38:22,291:INFO: 2020-08-16 11:38:21 epoch 28, step 1, loss: 0.4803, global_step: 1405
+2020-08-16 11:39:10,472:INFO: 2020-08-16 11:38:21 epoch 28, step 52, loss: 0.5369, global_step: 1456
+2020-08-16 11:39:10,472:INFO: 2020-08-16 11:38:21 epoch 28, step 52, loss: 0.5369, global_step: 1456
+2020-08-16 11:39:10,905:INFO: ===========validation===========
+2020-08-16 11:39:10,905:INFO: ===========validation===========
+2020-08-16 11:39:15,580:INFO: 2020-08-16 11:39:14 epoch 29, step 1, loss: 0.6167, global_step: 1457
+2020-08-16 11:39:15,580:INFO: 2020-08-16 11:39:14 epoch 29, step 1, loss: 0.6167, global_step: 1457
+2020-08-16 11:40:03,157:INFO: 2020-08-16 11:39:14 epoch 29, step 52, loss: 0.6826, global_step: 1508
+2020-08-16 11:40:03,157:INFO: 2020-08-16 11:39:14 epoch 29, step 52, loss: 0.6826, global_step: 1508
+2020-08-16 11:40:03,614:INFO: ===========validation===========
+2020-08-16 11:40:03,614:INFO: ===========validation===========
+2020-08-16 11:40:08,131:INFO: 2020-08-16 11:40:07 epoch 30, step 1, loss: 0.4756, global_step: 1509
+2020-08-16 11:40:08,131:INFO: 2020-08-16 11:40:07 epoch 30, step 1, loss: 0.4756, global_step: 1509
+2020-08-16 11:40:55,533:INFO: 2020-08-16 11:40:07 epoch 30, step 52, loss: 0.9851, global_step: 1560
+2020-08-16 11:40:55,533:INFO: 2020-08-16 11:40:07 epoch 30, step 52, loss: 0.9851, global_step: 1560
+2020-08-16 11:40:55,954:INFO: ===========validation===========
+2020-08-16 11:40:55,954:INFO: ===========validation===========
+2020-08-16 11:41:00,079:INFO: 2020-08-16 11:40:59 epoch 31, step 1, loss: 0.407, global_step: 1561
+2020-08-16 11:41:00,079:INFO: 2020-08-16 11:40:59 epoch 31, step 1, loss: 0.407, global_step: 1561
+2020-08-16 11:41:53,855:INFO: 2020-08-16 11:40:59 epoch 31, step 52, loss: 0.6141, global_step: 1612
+2020-08-16 11:41:53,855:INFO: 2020-08-16 11:40:59 epoch 31, step 52, loss: 0.6141, global_step: 1612
+2020-08-16 11:41:54,451:INFO: ===========validation===========
+2020-08-16 11:41:54,451:INFO: ===========validation===========
+2020-08-16 11:41:59,847:INFO: 2020-08-16 11:41:58 epoch 32, step 1, loss: 0.4436, global_step: 1613
+2020-08-16 11:41:59,847:INFO: 2020-08-16 11:41:58 epoch 32, step 1, loss: 0.4436, global_step: 1613
+2020-08-16 11:42:53,678:INFO: 2020-08-16 11:41:58 epoch 32, step 52, loss: 0.572, global_step: 1664
+2020-08-16 11:42:53,678:INFO: 2020-08-16 11:41:58 epoch 32, step 52, loss: 0.572, global_step: 1664
+2020-08-16 11:42:54,235:INFO: ===========validation===========
+2020-08-16 11:42:54,235:INFO: ===========validation===========
+2020-08-16 11:42:58,755:INFO: 2020-08-16 11:42:57 epoch 33, step 1, loss: 0.4144, global_step: 1665
+2020-08-16 11:42:58,755:INFO: 2020-08-16 11:42:57 epoch 33, step 1, loss: 0.4144, global_step: 1665
+2020-08-16 11:43:46,923:INFO: 2020-08-16 11:42:57 epoch 33, step 52, loss: 0.5039, global_step: 1716
+2020-08-16 11:43:46,923:INFO: 2020-08-16 11:42:57 epoch 33, step 52, loss: 0.5039, global_step: 1716
+2020-08-16 11:43:47,350:INFO: ===========validation===========
+2020-08-16 11:43:47,350:INFO: ===========validation===========
+2020-08-16 11:43:51,519:INFO: 2020-08-16 11:43:50 epoch 34, step 1, loss: 0.3923, global_step: 1717
+2020-08-16 11:43:51,519:INFO: 2020-08-16 11:43:50 epoch 34, step 1, loss: 0.3923, global_step: 1717
+2020-08-16 11:44:39,075:INFO: 2020-08-16 11:43:50 epoch 34, step 52, loss: 0.4215, global_step: 1768
+2020-08-16 11:44:39,075:INFO: 2020-08-16 11:43:50 epoch 34, step 52, loss: 0.4215, global_step: 1768
+2020-08-16 11:44:39,782:INFO: ===========validation===========
+2020-08-16 11:44:39,782:INFO: ===========validation===========
+2020-08-16 11:44:43,879:INFO: 2020-08-16 11:44:42 epoch 35, step 1, loss: 0.3534, global_step: 1769
+2020-08-16 11:44:43,879:INFO: 2020-08-16 11:44:42 epoch 35, step 1, loss: 0.3534, global_step: 1769
+2020-08-16 11:45:33,576:INFO: 2020-08-16 11:44:42 epoch 35, step 52, loss: 0.3616, global_step: 1820
+2020-08-16 11:45:33,576:INFO: 2020-08-16 11:44:42 epoch 35, step 52, loss: 0.3616, global_step: 1820
+2020-08-16 11:45:34,061:INFO: ===========validation===========
+2020-08-16 11:45:34,061:INFO: ===========validation===========
+2020-08-16 11:45:38,469:INFO: 2020-08-16 11:45:37 epoch 36, step 1, loss: 0.3548, global_step: 1821
+2020-08-16 11:45:38,469:INFO: 2020-08-16 11:45:37 epoch 36, step 1, loss: 0.3548, global_step: 1821
+2020-08-16 11:46:28,862:INFO: 2020-08-16 11:45:37 epoch 36, step 52, loss: 0.5771, global_step: 1872
+2020-08-16 11:46:28,862:INFO: 2020-08-16 11:45:37 epoch 36, step 52, loss: 0.5771, global_step: 1872
+2020-08-16 11:46:29,363:INFO: ===========validation===========
+2020-08-16 11:46:29,363:INFO: ===========validation===========
+2020-08-16 11:46:34,201:INFO: 2020-08-16 11:46:33 epoch 37, step 1, loss: 0.4838, global_step: 1873
+2020-08-16 11:46:34,201:INFO: 2020-08-16 11:46:33 epoch 37, step 1, loss: 0.4838, global_step: 1873
+2020-08-16 11:47:22,586:INFO: 2020-08-16 11:46:33 epoch 37, step 52, loss: 0.4483, global_step: 1924
+2020-08-16 11:47:22,586:INFO: 2020-08-16 11:46:33 epoch 37, step 52, loss: 0.4483, global_step: 1924
+2020-08-16 11:47:23,051:INFO: ===========validation===========
+2020-08-16 11:47:23,051:INFO: ===========validation===========
+2020-08-16 11:47:28,395:INFO: 2020-08-16 11:47:27 epoch 38, step 1, loss: 0.6592, global_step: 1925
+2020-08-16 11:47:28,395:INFO: 2020-08-16 11:47:27 epoch 38, step 1, loss: 0.6592, global_step: 1925
+2020-08-16 11:48:15,544:INFO: 2020-08-16 11:47:27 epoch 38, step 52, loss: 0.2646, global_step: 1976
+2020-08-16 11:48:15,544:INFO: 2020-08-16 11:47:27 epoch 38, step 52, loss: 0.2646, global_step: 1976
+2020-08-16 11:48:15,948:INFO: ===========validation===========
+2020-08-16 11:48:15,948:INFO: ===========validation===========
+2020-08-16 11:48:20,227:INFO: 2020-08-16 11:48:19 epoch 39, step 1, loss: 0.2346, global_step: 1977
+2020-08-16 11:48:20,227:INFO: 2020-08-16 11:48:19 epoch 39, step 1, loss: 0.2346, global_step: 1977
+2020-08-16 11:49:07,218:INFO: 2020-08-16 11:48:19 epoch 39, step 52, loss: 0.2998, global_step: 2028
+2020-08-16 11:49:07,218:INFO: 2020-08-16 11:48:19 epoch 39, step 52, loss: 0.2998, global_step: 2028
+2020-08-16 11:49:07,613:INFO: ===========validation===========
+2020-08-16 11:49:07,613:INFO: ===========validation===========
+2020-08-16 11:49:12,003:INFO: 2020-08-16 11:49:11 epoch 40, step 1, loss: 0.2851, global_step: 2029
+2020-08-16 11:49:12,003:INFO: 2020-08-16 11:49:11 epoch 40, step 1, loss: 0.2851, global_step: 2029
+2020-08-16 11:49:59,173:INFO: 2020-08-16 11:49:11 epoch 40, step 52, loss: 0.4852, global_step: 2080
+2020-08-16 11:49:59,173:INFO: 2020-08-16 11:49:11 epoch 40, step 52, loss: 0.4852, global_step: 2080
+2020-08-16 11:49:59,625:INFO: ===========validation===========
+2020-08-16 11:49:59,625:INFO: ===========validation===========
+2020-08-16 11:50:04,214:INFO: 2020-08-16 11:50:03 epoch 41, step 1, loss: 0.3711, global_step: 2081
+2020-08-16 11:50:04,214:INFO: 2020-08-16 11:50:03 epoch 41, step 1, loss: 0.3711, global_step: 2081
+2020-08-16 11:50:52,345:INFO: 2020-08-16 11:50:03 epoch 41, step 52, loss: 0.3919, global_step: 2132
+2020-08-16 11:50:52,345:INFO: 2020-08-16 11:50:03 epoch 41, step 52, loss: 0.3919, global_step: 2132
+2020-08-16 11:50:52,746:INFO: ===========validation===========
+2020-08-16 11:50:52,746:INFO: ===========validation===========
+2020-08-16 11:50:57,215:INFO: 2020-08-16 11:50:56 epoch 42, step 1, loss: 0.2443, global_step: 2133
+2020-08-16 11:50:57,215:INFO: 2020-08-16 11:50:56 epoch 42, step 1, loss: 0.2443, global_step: 2133
+2020-08-16 11:51:44,867:INFO: 2020-08-16 11:50:56 epoch 42, step 52, loss: 0.3758, global_step: 2184
+2020-08-16 11:51:44,867:INFO: 2020-08-16 11:50:56 epoch 42, step 52, loss: 0.3758, global_step: 2184
+2020-08-16 11:51:45,349:INFO: ===========validation===========
+2020-08-16 11:51:45,349:INFO: ===========validation===========
+2020-08-16 11:51:50,370:INFO: 2020-08-16 11:51:49 epoch 43, step 1, loss: 0.3803, global_step: 2185
+2020-08-16 11:51:50,370:INFO: 2020-08-16 11:51:49 epoch 43, step 1, loss: 0.3803, global_step: 2185
+2020-08-16 11:52:37,857:INFO: 2020-08-16 11:51:49 epoch 43, step 52, loss: 0.2378, global_step: 2236
+2020-08-16 11:52:37,857:INFO: 2020-08-16 11:51:49 epoch 43, step 52, loss: 0.2378, global_step: 2236
+2020-08-16 11:52:38,281:INFO: ===========validation===========
+2020-08-16 11:52:38,281:INFO: ===========validation===========
+2020-08-16 11:52:42,449:INFO: 2020-08-16 11:52:41 epoch 44, step 1, loss: 0.2507, global_step: 2237
+2020-08-16 11:52:42,449:INFO: 2020-08-16 11:52:41 epoch 44, step 1, loss: 0.2507, global_step: 2237
+2020-08-16 11:53:29,702:INFO: 2020-08-16 11:52:41 epoch 44, step 52, loss: 0.392, global_step: 2288
+2020-08-16 11:53:29,702:INFO: 2020-08-16 11:52:41 epoch 44, step 52, loss: 0.392, global_step: 2288
+2020-08-16 11:53:30,115:INFO: ===========validation===========
+2020-08-16 11:53:30,115:INFO: ===========validation===========
+2020-08-16 11:53:34,356:INFO: 2020-08-16 11:53:33 epoch 45, step 1, loss: 0.3111, global_step: 2289
+2020-08-16 11:53:34,356:INFO: 2020-08-16 11:53:33 epoch 45, step 1, loss: 0.3111, global_step: 2289
+2020-08-16 11:54:22,059:INFO: 2020-08-16 11:53:33 epoch 45, step 52, loss: 0.1306, global_step: 2340
+2020-08-16 11:54:22,059:INFO: 2020-08-16 11:53:33 epoch 45, step 52, loss: 0.1306, global_step: 2340
+2020-08-16 11:54:22,507:INFO: ===========validation===========
+2020-08-16 11:54:22,507:INFO: ===========validation===========
+2020-08-16 11:54:27,087:INFO: 2020-08-16 11:54:26 epoch 46, step 1, loss: 0.2331, global_step: 2341
+2020-08-16 11:54:27,087:INFO: 2020-08-16 11:54:26 epoch 46, step 1, loss: 0.2331, global_step: 2341
+2020-08-16 11:55:14,731:INFO: 2020-08-16 11:54:26 epoch 46, step 52, loss: 0.4193, global_step: 2392
+2020-08-16 11:55:14,731:INFO: 2020-08-16 11:54:26 epoch 46, step 52, loss: 0.4193, global_step: 2392
+2020-08-16 11:55:15,260:INFO: ===========validation===========
+2020-08-16 11:55:15,260:INFO: ===========validation===========
+2020-08-16 11:55:19,306:INFO: 2020-08-16 11:55:18 epoch 47, step 1, loss: 0.2443, global_step: 2393
+2020-08-16 11:55:19,306:INFO: 2020-08-16 11:55:18 epoch 47, step 1, loss: 0.2443, global_step: 2393
+2020-08-16 11:56:09,560:INFO: 2020-08-16 11:55:18 epoch 47, step 52, loss: 0.181, global_step: 2444
+2020-08-16 11:56:09,560:INFO: 2020-08-16 11:55:18 epoch 47, step 52, loss: 0.181, global_step: 2444
+2020-08-16 11:56:10,144:INFO: ===========validation===========
+2020-08-16 11:56:10,144:INFO: ===========validation===========
+2020-08-16 11:56:15,988:INFO: 2020-08-16 11:56:14 epoch 48, step 1, loss: 0.2182, global_step: 2445
+2020-08-16 11:56:15,988:INFO: 2020-08-16 11:56:14 epoch 48, step 1, loss: 0.2182, global_step: 2445
+2020-08-16 11:57:06,560:INFO: 2020-08-16 11:56:14 epoch 48, step 52, loss: 0.2254, global_step: 2496
+2020-08-16 11:57:06,560:INFO: 2020-08-16 11:56:14 epoch 48, step 52, loss: 0.2254, global_step: 2496
+2020-08-16 11:57:06,955:INFO: ===========validation===========
+2020-08-16 11:57:06,955:INFO: ===========validation===========
+2020-08-16 11:57:11,809:INFO: 2020-08-16 11:57:10 epoch 49, step 1, loss: 0.2006, global_step: 2497
+2020-08-16 11:57:11,809:INFO: 2020-08-16 11:57:10 epoch 49, step 1, loss: 0.2006, global_step: 2497
+2020-08-16 11:58:03,046:INFO: 2020-08-16 11:57:10 epoch 49, step 52, loss: 0.3276, global_step: 2548
+2020-08-16 11:58:03,046:INFO: 2020-08-16 11:57:10 epoch 49, step 52, loss: 0.3276, global_step: 2548
+2020-08-16 11:58:03,609:INFO: ===========validation===========
+2020-08-16 11:58:03,609:INFO: ===========validation===========
+2020-08-16 11:58:08,263:INFO: 2020-08-16 11:58:07 epoch 50, step 1, loss: 0.2528, global_step: 2549
+2020-08-16 11:58:08,263:INFO: 2020-08-16 11:58:07 epoch 50, step 1, loss: 0.2528, global_step: 2549
+2020-08-16 11:58:59,279:INFO: 2020-08-16 11:58:07 epoch 50, step 52, loss: 0.257, global_step: 2600
+2020-08-16 11:58:59,279:INFO: 2020-08-16 11:58:07 epoch 50, step 52, loss: 0.257, global_step: 2600
+2020-08-16 11:58:59,738:INFO: ===========validation===========
+2020-08-16 11:58:59,738:INFO: ===========validation===========
